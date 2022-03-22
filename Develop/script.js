@@ -4,7 +4,7 @@ var upperCase ="ABCEDFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "1234567890";
 var specialChars = "~`! @#$%^&*()_-+={[}]|\:;'<,>.?/";
 
-var allCharacters = "";
+var allCharacters = null;
 
 var generatePassword = function() {
   var charLength = window.prompt("How many characters would you like?");
