@@ -39,6 +39,12 @@ var generatePassword = function() {
         if (specialCharConfirm == true) {
           allCharacters = allCharacters + specialChars;
         } 
+
+        if (!allCharacters) {
+          alert("Please select an option to include!");
+          generatePassword();
+        }
+
     console.log(allCharacters); 
       }
       var generatedPass = "";
