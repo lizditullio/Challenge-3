@@ -25,32 +25,26 @@ var generatePassword = function() {
       
         if (lowerCaseConfirm == true) {
           allCharacters = allCharacters + lowerCase;
-        } else {
-          return allCharacters;
-        }
+        } 
       
         if (upperCaseConfirm == true) {
           allCharacters = allCharacters + upperCase;
-        } else {
-          return allCharacters;
-        }
+        } 
+          
       
         if (numbersConfirm == true) {
           allCharacters = allCharacters + numbers;
-        } else {
-         return allCharacters;
-        }
-
+        } 
+         
         if (specialCharConfirm == true) {
           allCharacters = allCharacters + specialChars;
-        } else {
-          return allCharacters;
-        }
+        } 
     console.log(allCharacters); 
       }
+      var generatedPass = "";
           for(var i = 0; i < charLength; i++) {
               var value = Math.floor(Math.random() * allCharacters.length);
-              var generatedPass = generatedPass +   allCharacters[value];
+              generatedPass = generatedPass +   allCharacters[value];
             }
             console.log(allCharacters[value]);
             console.log(generatedPass);
