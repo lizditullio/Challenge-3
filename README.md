@@ -1,13 +1,12 @@
 # Challenge-3
-# Challenge-2
 
 ## Purpose 
-A portfolio that showcases my work as a Web Developer. 
+An application to generate a random password based on user selected prompts. 
 
 ## Built With 
 * HTML
 * CSS
-* * JavaScript
+* JavaScript
 
 ## Website 
 https://lizditullio.github.io/Challenge-3/
